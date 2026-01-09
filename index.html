@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Miyabi's Ears</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <script src="scripts.js"></script>
+    <body>
+        <!-- <haeder style="margin: 0px;">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>Miyabi Ear Generator</h1>
+        </haeder> -->
+        <section>
+            <div style="position: fixed; left: 5%; top: 25%; display: flex; flex-direction:  column; margin: 15px;">
+                <img src="Images/sticker.png" style="aspect-ratio: 1; width: 200px;">
+            </div>
+            <div class="sidebar">
+                <button onclick="goto('#top')">^</button>
+                <button id="plusBtn" onclick="moreEars()" style="aspect-ratio: 1; font-size: xx-large;">+</button>
+                <br>
+                <button id="minBtn" onclick="lessEars()" style="aspect-ratio: 1; font-size: xx-large;">-</button>
+                <button onclick="goto('#base')">v</button>
+            </div>
+            <div id="contain" class="container">
+                <img id="top" class="others" src="Images/ear_Top.png">
+                <img id="base" class="others" src="Images/ear_Base.png" style="margin-bottom: 50px;">
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  height: 1vh;     
+  margin: 35px;      
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;       
+}
+
+.container {
+
+    height: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 15px;
+    padding: 20px;
+}
+
+.others {
+
+    width: 200px;
+    height: 200px;
+
+}
+
+.connector {
+
+    width: 200px;
+    height: 100px;
+
+}
+
+.sidebar {
+
+    display: flex;
+    flex-direction:  column;
+    margin: 15px;
+    position: fixed;
+    right: 15%;
+    top: 35%;
+    width: 100px;
+    height: auto;
+
+}
