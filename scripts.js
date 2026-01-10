@@ -17,7 +17,7 @@ function moreEars() {
 
     playAudio('audio/confettisound.mp3')
     const img = document.createElement("img")
-    img.src = "images/ear_Connector.png"
+    img.src = "Images/ear_Connector.png"
     img.style.width = '200px'
     img.style.height = '100px'
     img.class = "connector"
@@ -38,4 +38,5 @@ function lessEars() {
     }
 
 }
+
 
